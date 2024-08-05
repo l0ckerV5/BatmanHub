@@ -7,7 +7,7 @@ if getgenv().BatmanHubLoaded ~= true then
     getgenv().BatmanHubLoaded = true
    loadstring(game:HttpGet("https://github.com/l0ckerV5/BatmanHub/raw/main/Sources/Lite"))()
 else
-    game.StarterGui:SetCore("SendNotification",  { Title = "BatmanHub Lite"; Text = "This script is already executed!"; Icon = "rbxassetid://18634360365"; Duration = 15; })
+    game.StarterGui:SetCore("SendNotification",  { Title = "BatmanHub Lite"; Text = "This script is already executed!"; Icon = "rbxassetid://18792200774"; Duration = 15; })
 end
 ```
 
